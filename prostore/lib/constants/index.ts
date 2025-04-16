@@ -5,3 +5,4 @@ export const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://southshore3dp
 export const APP_IMAGE = process.env.NEXT_PUBLIC_APP_IMAGE || "https://southshore3dprinting.com/og.png";
 export const APP_TWITTER = process.env.NEXT_PUBLIC_APP_TWITTER || "@southshore3dprinting";
 export const APP_INSTAGRAM = process.env.NEXT_PUBLIC_APP_INSTAGRAM || "@southshore3dprinting";
+export const LATEST_PRODUCTS_LIMIT = Number(process.env.LATEST_PRODUCT_LIMIT) || 4;
