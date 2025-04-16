@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Bold } from "lucide-react";
-import ProductPrice from "./product-price";
 
-const ProductCard = ({ product }: { product: any }) => {
+import ProductPrice from "./product-price";
+import { Product } from "@/types";
+
+const ProductCard = ({ product }: { product: Product }) => {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader className="p-10 items-center">
